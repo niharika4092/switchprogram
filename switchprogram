@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+int choice;
+printf("Enter the choice: \n 1.Pizza,Rs 239\n 2.Burger,Rs 129\n 3.Pasta,Rs 179\n 4.French Fries,Rs99\n 5.Sandwich,Rs 149\n");
+scanf("%d", &choice);
+switch(choice)
+{
+case 1:
+      printf("Food item: Pizza\n Price:239 Rs");
+break;
+case 2:
+      printf("Food item: Burger\n Price:129 Rs");
+break;
+case 3:
+      printf("Food item: Pasta\n Price:179 Rs");
+break;
+case 4:
+      printf("Food item: French Fries\n Price:99 Rs");
+break;
+case 5:
+      printf("Food item: Sandwich\n Price:149 Rs");
+default: printf("invalid choice");
+}
+}
